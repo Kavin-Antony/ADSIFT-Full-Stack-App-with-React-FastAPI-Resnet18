@@ -1,68 +1,89 @@
-# 🔐 ADSIFT Authorization React Web App
+# 🎧 ADSIFT Frontend — React Interface for Real-Time Audio Classification
 
-This is a simple React-based authorization module designed as part of the **ADSIFT** project. It includes user-friendly interfaces for login, signup, and a protected home screen with a welcome message.
+This is the **React.js frontend** for the [ADSIFT Full Stack App](https://github.com/Kavin-Antony/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18), an intelligent FM radio web application that classifies audio in real-time using a deep learning backend. It allows users to log in, listen to FM stations, and automatically skip advertisements.
 
+## 🌐 Live Demo (optional)
 
-## 📸 Screenshots
-
-| Login Page | Signup Page | Welcome Page |
-|------------|-------------|-----------|
-| ![Login](./assets/screenshots/Login.png) | ![Signup](./assets/screenshots/Signup.png) | ![Home](./assets/screenshots/Welcome.png) |
+> 🔗 Frontend: [React Preview](http://localhost:5173)
 
 ## ⚙️ Features
 
-- ✅ User login interface  
-- 📝 Signup form for new users  
-- 🏠 Home page after authentication  
-- 🌐 Built with **React + Vite**
+- 🎛️ Interactive Audio Player (Ad-Skipper & Normal)
+- 🔐 JWT-Based User Authentication (Signup/Login)
+- 📊 Classification-Aware UI (Music / Advertisement)
+- 🧭 Sidebar & Category Filtering
+- 🎨 Responsive UI with CSS modules
+- ⚡ Powered by Vite for ultra-fast dev experience
 
+---
 
-## 📁 Project Structure
-``` markdown
-AUTHORIZATION WEB APP REACT/
-├── .github/
-├── node_modules/
-├── public/
-│   └── logos.png
+## 📁 Folder Structure
+
+```bash
+Frontend/
+│
+├── assets/               # App images/icons
+├── node_modules/         # Dependencies
+├── public/               # Static files (index.html)
 ├── src/
-│   ├── components/      # Reusable components (e.g., forms, buttons)
-│   ├── styles/          # CSS / SCSS styles
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── eslint.config.js
+│   ├── components/       # All JSX UI components
+│   │   ├── AudioPlayer.jsx / _AD.jsx
+│   │   ├── Home.jsx / _AD.jsx
+│   │   ├── Login.jsx, Signup.jsx, Splash.jsx
+│   │   ├── Sidebar.jsx, Header.jsx, Categories.jsx
+│   ├── styles/           # Component-wise CSS styles
+│   ├── App.jsx           # Root component
+│   ├── main.jsx          # React entry point
+│   └── main.css          # Global styles
+│
 ├── index.html
+├── vite.config.js        # Vite dev config
+├── eslint.config.js
 ├── package.json
-├── package-lock.json
-└── vite.config.js
+└── README.md
 ```
+
+---
 
 ## 🚀 Getting Started
 
-### 🔧 Prerequisites
-
-- Node.js (v16 or above)
-- npm or yarn
-
-### ⚙️ Installation & Running Locally
+### 1. 📥 Clone the Repo
 
 ```bash
-# Clone the repository
-git clone https://github.com/Kavin-Antony/ADSIFT-AUTHORIZATION_REACT_WEB_APP.git
-
-# Navigate into the project directory
-cd "AUTHORIZATION WEB APP REACT"
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
+git clone https://github.com/Kavin-Antony/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18.git
+cd ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/Frontend
 ```
 
-🌐 Technologies Used
-	•	⚛️ React.js (with Vite)
-	•	📦 NPM
-	•	🎨 CSS Modules / Styles
-	•	🧪 ESLint
+### 2. 📦 Install Dependencies
 
+```bash
+npm install
+```
+
+### 3. 🔥 Run the App
+
+```bash
+npm run dev
+```
+Access at: http://localhost:5173
+
+### 🧪 Pages
+#### •	/login – Sign in to your account
+#### •	/signup – Register as a new user
+#### •	/home – Stream FM with classification
+#### •	/home_ad – Ad-included version
+#### •	/splash – Intro screen
+
+### ⚒️ Tech Stack
+
+| Area       | Tech Used                        |
+|------------|----------------------------------|
+| 🧠 Backend | FastAPI, MongoDB, PyTorch        |
+| 🎧 Audio   | FFmpeg, Librosa, ResNet18        |
+| 🧩 Frontend| React.js, Vite, CSS Modules      |
+| 🛡️ Auth    | JWT (python-jose) with bcryt     |
+| 🌐 API     | RESTful APIs with CORS support   |
+
+### 📄 License
+
+Licensed under the MIT License © 2025 Kavin Antony
