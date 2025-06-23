@@ -30,3 +30,5 @@ pymonho.server_api  # For MongoDB server API support
 # JWT
 jose  # For JSON Web Tokens
 python-jose  # For JWT handling
+
+python-dotenv  # For environment variable management
