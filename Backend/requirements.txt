@@ -1,0 +1,32 @@
+# Core libraries
+numpy
+matplotlib
+Pillow
+torch
+torchvision
+
+# Audio processing
+librosa
+
+# FastAPI and related
+fastapi
+uvicorn
+gunicorn
+
+# CORS support for APIs
+aiofiles  # Required by FastAPI for file handling
+python-multipart  # For form parsing
+requests
+httpx
+
+# Hashing and security
+bcrypt  # For password hashing
+
+# MongoDB support
+pymongo
+pymongo[srv]  # For MongoDB with SRV connection strings
+pymonho.server_api  # For MongoDB server API support
+
+# JWT
+jose  # For JSON Web Tokens
+python-jose  # For JWT handling

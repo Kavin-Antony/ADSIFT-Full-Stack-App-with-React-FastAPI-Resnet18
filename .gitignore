@@ -1,0 +1,38 @@
+# 🔹 Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# 🔹 Virtual environments (e.g., backend/macos/)
+**/macos/
+
+# 🔹 Environment variables (e.g., backend/.env)
+**/.env
+
+# 🔹 OS/System files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# 🔹 React frontend (e.g., frontend/)
+**/node_modules/
+**/build/
+**/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔹 Testing/coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.cache/
+
+# 🔹 Other
+*.sqlite3
+*.db
+*.tgz
