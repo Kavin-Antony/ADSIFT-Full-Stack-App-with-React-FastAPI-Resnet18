@@ -182,10 +182,19 @@ The model uses mel-spectrograms as input and is trained for binary classificatio
 
 Make sure this file is in the correct path as used in your backend Folder.
 
-### 📬 8. API Usage
+### ▶️ 8. Prediction 
+
+This code will run the main.py file which will handle recording audio from live api, preprocessing and pediction.
+
+```bash
+python3 main.py
+```
+> ℹ️ Note: You can able to monitor the audio file recorded meta data from the terminal.
+
+### 📬 9. API Usage
 
 After starting the server and exposing with Ngrok, access interactive documentation at:
-https://your_domain_name/docs
+🔗 https://your_domain_name/docs
 (eg.)https://goshawk-musical-liger.ngrok-free.app/docs
 
 Use REST clients like Postman, browser fetch(), or requests in Python to interact with endpoints like:
@@ -194,5 +203,9 @@ Use REST clients like Postman, browser fetch(), or requests in Python to interac
 	•	POST /jwt_login/
 	•	GET /fm
 
-📄 License
+### 📻 Radio Browser API License for Usage
+
+🔗 https://www.radio-browser.info
+
+### 📄 License
 This project is licensed under the MIT License © 2025 Kavin Antony.
