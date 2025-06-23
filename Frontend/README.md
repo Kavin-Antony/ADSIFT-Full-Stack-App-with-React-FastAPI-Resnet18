@@ -66,10 +66,3 @@ npm run dev
 	•	🎨 CSS Modules / Styles
 	•	🧪 ESLint
 
-
- 🔗 Related Repositories
-```markdown
-- [ADSIFT Web App React without AD (AD SKIPPER BACKEND)](https://github.com/Kavin-Antony/ADSIFT-WEB_APP_REACT_WITHOUT_AD)
-- [ADSIFT Web App React with AD](https://github.com/Kavin-Antony/ADSIFT-AUTHORIZATION_REACT_WEB_APP)
-- [ADSIFT Server](https://github.com/Kavin-Antony/ADSIFT---Server)
-```

@@ -11,7 +11,7 @@ This is the **backend server** of the ADSIFT system — an intelligent audio cla
 - 🚀 Production-ready with Gunicorn, Uvicorn, and Ngrok
 
 ## 📂 Backend Project Structure Overview
-
+```bash
 Backend/
 ├── pycache/                     # Auto-generated Python bytecode files
 ├── macos/                           # Python virtual environment folder (named “macos”)
@@ -29,6 +29,7 @@ Backend/
 ├── requirements.txt                 # Python dependencies needed to run the project
 ├── resnet18_audio_classification.py # ResNet-18 model definition and training utilities
 ├── server.py                        # FastAPI server with routes for signup, login, FM analysis, etc.
+```
 
 ## 🧰 Libraries & Frameworks Used
 
