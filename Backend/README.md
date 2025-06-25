@@ -208,4 +208,4 @@ Use REST clients like Postman, browser fetch(), or requests in Python to interac
 🔗 https://www.radio-browser.info
 
 ### 📄 License
-This project is licensed under the MIT License © 2025 Kavin Antony.
+This project is licensed under the [MIT License](../LICENSE) © 2025 Kavin Antony.

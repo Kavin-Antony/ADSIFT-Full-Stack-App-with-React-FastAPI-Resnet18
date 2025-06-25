@@ -2,9 +2,13 @@
 
 This is the **React.js frontend** for the [ADSIFT Full Stack App](https://github.com/Kavin-Antony/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18), an intelligent FM radio web application that classifies audio in real-time using a deep learning backend. It allows users to log in, listen to FM stations, and automatically skip advertisements.
 
-## 🌐 Live Demo (optional)
+## 🌐 Live Demo 
 
-> 🔗 Frontend: [React Preview](http://localhost:5173)
+> 🔗 Frontend: [React Preview](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
+>> [Welcome Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
+>> [Login Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/login)
+>> [Signup Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/signup)
+>> [Home Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/home-ad)
 
 ## ⚙️ Features
 
@@ -70,7 +74,7 @@ Access at: http://localhost:5173
 ### 🧪 Pages
 #### •	/login – Sign in to your account
 #### •	/signup – Register as a new user
-#### •	/home – Stream FM with classification
+#### •	/home – Stream FM with classification without Ad
 #### •	/home_ad – Ad-included version
 #### •	/splash – Intro screen
 
@@ -86,4 +90,4 @@ Access at: http://localhost:5173
 
 ### 📄 License
 
-Licensed under the MIT License © 2025 Kavin Antony
+Licensed under the [MIT License](../LICENSE) © 2025 Kavin Antony
