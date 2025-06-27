@@ -10,6 +10,8 @@ This is the **React.js frontend** for the [ADSIFT Full Stack App](https://github
 >> [Signup Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/signup)
 >> [Home Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/home-ad)
 
+---
+
 ## ⚙️ Features
 
 - 🎛️ Interactive Audio Player (Ad-Skipper & Normal)
@@ -71,12 +73,16 @@ npm run dev
 ```
 Access at: http://localhost:5173
 
+---
+
 ### 🧪 Pages
 #### •	/login – Sign in to your account
 #### •	/signup – Register as a new user
 #### •	/home – Stream FM with classification without Ad
 #### •	/home_ad – Ad-included version
 #### •	/splash – Intro screen
+
+---
 
 ### ⚒️ Tech Stack
 
@@ -87,6 +93,8 @@ Access at: http://localhost:5173
 | 🧩 Frontend| React.js, Vite, CSS Modules      |
 | 🛡️ Auth    | JWT (python-jose) with bcryt     |
 | 🌐 API     | RESTful APIs with CORS support   |
+
+---
 
 ### 📄 License
 

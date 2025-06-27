@@ -10,6 +10,8 @@ ADSIFT is a full-stack application that enables real-time FM audio classificatio
 - 🧠 **Backend (FastAPI + PyTorch)**  
   Deep learning server using ResNet-18 to classify FM audio in real time, handle authentication, and stream processing.
 
+---
+
 ## 📁 Folder Structure
 ```
 ADSIFT/
@@ -23,6 +25,8 @@ ADSIFT/
 │
 └── README.md      # Main README (you are here)
 ```
+
+---
 
 ## 🚀 How to Run the Project
 
@@ -43,6 +47,7 @@ ADSIFT/
 | Database    | MongoDB Atlas (via PyMongo)             |
 | Auth        | JWT (python-jose) + bcrypt              |
 
+---
 
 📜 License
 

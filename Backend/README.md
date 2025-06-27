@@ -10,6 +10,8 @@ This is the **backend server** of the ADSIFT system — an intelligent audio cla
 - 🔄 REST API interface for frontend integration
 - 🚀 Production-ready with Gunicorn, Uvicorn, and Ngrok
 
+---
+
 ## 📂 Backend Project Structure Overview
 ```bash
 Backend/
@@ -30,6 +32,8 @@ Backend/
 ├── resnet18_audio_classification.py # ResNet-18 model definition and training utilities
 ├── server.py                        # FastAPI server with routes for signup, login, FM analysis, etc.
 ```
+
+---
 
 ## 🧰 Libraries & Frameworks Used
 
@@ -86,6 +90,8 @@ The ADSIFT backend uses a variety of powerful libraries for deep learning, audio
 
 All dependencies are listed in [`requirements.txt`](./requirements.txt).  
 Run `pip install -r requirements.txt` after activating your virtual environment to install them.
+
+---
 
 ## ⚙️ Setup Instructions
 
@@ -203,9 +209,13 @@ Use REST clients like Postman, browser fetch(), or requests in Python to interac
 	•	POST /jwt_login/
 	•	GET /fm
 
+---
+
 ### 📻 Radio Browser API License for Usage
 
 🔗 https://www.radio-browser.info
+
+---
 
 ### 📄 License
 This project is licensed under the [MIT License](../LICENSE) © 2025 Kavin Antony.
