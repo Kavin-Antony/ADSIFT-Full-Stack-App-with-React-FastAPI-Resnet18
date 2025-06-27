@@ -4,11 +4,12 @@ This is the **React.js frontend** for the [ADSIFT Full Stack App](https://github
 
 ## 🌐 Live Demo 
 
-> 🔗 Frontend: [React Preview](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
->> [Welcome Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
->> [Login Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/login)
->> [Signup Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/signup)
->> [Home Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/home-ad)
+## 🔗 Frontend: [React Preview](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
+####  [🔹 Welcome Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/)
+####  [🔹 Login Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/login)
+####  [🔹 Signup Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/signup)
+####  [🔹 Home Page](https://kavin-antony.github.io/ADSIFT-Full-Stack-App-with-React-FastAPI-Resnet18/#/home-ad)
+
 
 ---
 
